@@ -1,13 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&display=swap');
 * {
+    margin: 0; 
+    padding: 0; 
     box-sizing: border-box;
-    font-family: Helvetica, sans-serif;
   }
-
+  
 .edit-blog { 
     display: flex; 
     justify-content: flex-end;
-    margin-left: auto;
-    padding: 5px; 
+    padding: 20px; 
+    color: #D3D9D4;
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 600; 
+    font-style: normal;
 }
 
 .edit-photo {
@@ -23,12 +28,21 @@
     display: flex; 
     justify-content: center;
     text-align: center; 
+    color: #D3D9D4;
+    margin: 0 auto;
+    padding: 5px; 
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 600; 
+    font-style: normal;
+}
+
+.footer-center-text {
+  color: #D3D9D4;
 }
   /* Set a background color */
   body {
-    background-color: #474e5d;
+    background-color: #212A31;
   }
-  
   /* The actual timeline (the vertical ruler) */
   .timeline {
     position: relative;
@@ -41,7 +55,7 @@
     content: '';
     position: absolute;
     width: 6px;
-    background-color: white;
+    background-color: #748D92;
     top: 0;
     bottom: 0;
     left: 50%;
@@ -63,8 +77,8 @@
     width: 25px;
     height: 25px;
     right: -17px;
-    background-color: white;
-    border: 4px solid #FF9F55;
+    background-color: #D3D9D4;
+    border: 4px solid #748D92;
     top: 15px;
     border-radius: 50%;
     z-index: 1;
@@ -116,9 +130,12 @@
   /* The actual content */
   .content {
     padding: 20px 30px;
-    background-color: white;
+    background-color: #D3D9D4;
     position: relative;
     border-radius: 6px;
+    font-family: "IBM Plex Mono", monospace; 
+    font-weight: 400; 
+    font-style: normal;
   }
   
   /* Media queries - Responsive timeline on screens less than 600px wide */
