@@ -2,7 +2,21 @@ import { TimelineEntry } from "./timeline-entry"
 
 const entries = [
   {
-    period: "Present", 
+    period: "2026 - Present", 
+    era: "era-start",
+    content: (
+      <>
+        I got into <a href="https://www.infer.so/" target="_blank" rel="noopener noreferrer">Infer</a> as a Forward Deployed Engineer Intern, where I am working on 
+        scaling and improving voice systems for clients. 
+
+        <br></br>
+        <br></br>
+        Lots of exciting things coming underway! 
+      </>
+    )
+  },
+  {
+    period: "Late 2025", 
     era: "era-start",
     content: (
       <>
@@ -19,8 +33,6 @@ const entries = [
         under <a href="https://iksha.vercel.app/" target="_blank" rel="noopener noreferrer">Iksha</a>, 
         an early-stage research effort. 
         <br></br>
-        <br></br>
-        Lots of exciting things coming underway! 
       </>
     )
   },
